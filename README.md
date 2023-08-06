@@ -1,2 +1,2 @@
-# ubruntime
-Ubuntu runtime from Steam for Lutris Wine
+# steam-runtime-libs
+Libraries from Steam for Lutris Wine

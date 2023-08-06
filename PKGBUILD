@@ -1,17 +1,17 @@
 # Maintainer: VHSgunzo <vhsgunzo.github.io>
 
-pkgname='ubruntime'
-pkgver='0.0.1'
+pkgname='steam-runtime-libs'
+pkgver='0.0.2'
 pkgrel='1'
 pkgbase="$pkgname"
-pkgdesc='Ubuntu runtime from Steam for Lutris Wine'
-url="https://github.com/VHSgunzo/ubruntime"
+pkgdesc='Libraries from Steam for Lutris Wine'
+url="https://github.com/VHSgunzo/steam-runtime-libs"
 arch=('x86_64')
 license=('MIT')
-source=("ubruntime.tar.xz::https://raw.githubusercontent.com/VHSgunzo/ubruntime/main/ubruntime.tar.xz")
+source=("https://raw.githubusercontent.com/VHSgunzo/steam-runtime-libs/main/steam-runtime-libs.tar.xz")
 sha256sums=('SKIP')
 
 package() {
-    cp -ar --no-preserve=ownership "$srcdir/etc" "$pkgdir/etc"
-    cp -ar --no-preserve=ownership "$srcdir/opt" "$pkgdir/opt"
+    cp -ar --no-preserve=ownership "$srcdir/$pkgname/etc" "$pkgdir/etc"
+    cp -ar --no-preserve=ownership "$srcdir/$pkgname/opt" "$pkgdir/opt"
 }

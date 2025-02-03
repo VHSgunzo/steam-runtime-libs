@@ -3,7 +3,6 @@
 pkgname='steam-runtime-libs'
 pkgver='0.0.5'
 pkgrel='1'
-pkgbase="$pkgname"
 pkgdesc='Libraries from Steam for Lux Wine'
 url="https://github.com/VHSgunzo/steam-runtime-libs"
 arch=('x86_64')

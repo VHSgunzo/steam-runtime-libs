@@ -1,7 +1,7 @@
 # Maintainer: VHSgunzo <vhsgunzo.github.io>
 
 pkgname='steam-runtime-libs'
-pkgver='0.0.5'
+pkgver='0.0.7'
 pkgrel='1'
 pkgdesc='Libraries from Steam for Lux Wine'
 url="https://github.com/VHSgunzo/steam-runtime-libs"
